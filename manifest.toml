@@ -18,7 +18,7 @@ code = "https://github.com/hacdias/webdav"
 [integration]
 yunohost = ">= 12.0.9"
 helpers_version = "2.1"
-architectures = ["amd64"]
+architectures = ["amd64", "arm64"]
 multi_instance = true
 
 ldap = false
@@ -48,8 +48,10 @@ ram.runtime = "50M"
 
     [resources.sources.main]
     in_subdir = false
-    url = "https://github.com/hacdias/webdav/releases/download/v5.7.2/linux-amd64-webdav.tar.gz"
-    sha256 = "65878ea05d38a0093645eca24272daf6c0ed45d66c75ac8dd67951e2ba2f1a17"
+    amd64.url = "https://github.com/hacdias/webdav/releases/download/v5.7.2/linux-amd64-webdav.tar.gz"
+    amd64.sha256 = "65878ea05d38a0093645eca24272daf6c0ed45d66c75ac8dd67951e2ba2f1a17"
+    arm64.url = "https://github.com/hacdias/webdav/releases/download/v5.7.2/linux-arm64-webdav.tar.gz"
+    arm64.sha256 = "8817afaa527e71273dc7aca12b191b40c6256605eb09aeb38723dd64b02f1c57"
     # autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
