@@ -18,8 +18,7 @@ Hij mag NIET handmatig aangepast worden.
 
 ## Overzicht
 
-This is a dummy description of this app features
-
+A simple and standalone WebDAV server. 
 
 **Geleverde versie:** 5.7.1~ynh1
 ## Documentatie en bronnen

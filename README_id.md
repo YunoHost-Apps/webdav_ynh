@@ -18,8 +18,7 @@ Ini TIDAK boleh diedit dengan tangan.
 
 ## Ringkasan
 
-This is a dummy description of this app features
-
+A simple and standalone WebDAV server. 
 
 **Versi terkirim:** 5.7.1~ynh1
 ## Dokumentasi dan sumber daya
