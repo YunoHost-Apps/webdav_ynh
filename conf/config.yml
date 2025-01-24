@@ -63,7 +63,7 @@ cors:
   allowed_headers:
     - Depth
   allowed_hosts:
-    - http://localhost:8080
+    - http://127.0.0.1:__PORT__
     - http://__DOMAIN__
     - https://__DOMAIN__
   allowed_methods:
