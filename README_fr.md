@@ -18,10 +18,9 @@ Il NE doit PAS être modifié à la main.
 
 ## Vue d’ensemble
 
-Ceci est une fausse description des fonctionalités de l'app
+Un serveur WebDAV simple et autonome.
 
-
-**Version incluse :** 5.7.1~ynh1
+**Version incluse :** 5.7.2~ynh1
 ## Documentations et ressources
 
 - Dépôt de code officiel de l’app : <https://github.com/hacdias/webdav>

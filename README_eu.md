@@ -18,10 +18,9 @@ EZ editatu eskuz.
 
 ## Aurreikuspena
 
-This is a dummy description of this app features
+A simple and standalone WebDAV server. 
 
-
-**Paketatutako bertsioa:** 5.7.1~ynh1
+**Paketatutako bertsioa:** 5.7.2~ynh1
 ## Dokumentazioa eta baliabideak
 
 - Jatorrizko aplikazioaren kode-gordailua: <https://github.com/hacdias/webdav>

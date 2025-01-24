@@ -18,10 +18,9 @@
 
 ## 概况
 
-This is a dummy description of this app features
+A simple and standalone WebDAV server. 
 
-
-**分发版本：** 5.7.1~ynh1
+**分发版本：** 5.7.2~ynh1
 ## 文档与资源
 
 - 上游应用代码库： <https://github.com/hacdias/webdav>

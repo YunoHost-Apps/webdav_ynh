@@ -18,10 +18,9 @@
 
 ## Обзор
 
-This is a dummy description of this app features
+A simple and standalone WebDAV server. 
 
-
-**Поставляемая версия:** 5.7.1~ynh1
+**Поставляемая версия:** 5.7.2~ynh1
 ## Документация и ресурсы
 
 - Репозиторий кода главной ветки приложения: <https://github.com/hacdias/webdav>

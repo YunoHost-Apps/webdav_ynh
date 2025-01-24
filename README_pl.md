@@ -18,10 +18,9 @@ Nie powinno być ono edytowane ręcznie.
 
 ## Przegląd
 
-This is a dummy description of this app features
+A simple and standalone WebDAV server. 
 
-
-**Dostarczona wersja:** 5.7.1~ynh1
+**Dostarczona wersja:** 5.7.2~ynh1
 ## Dokumentacja i zasoby
 
 - Repozytorium z kodem źródłowym: <https://github.com/hacdias/webdav>

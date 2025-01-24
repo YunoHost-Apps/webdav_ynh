@@ -1,1 +1,1 @@
-This is a dummy description of this app features
+A simple and standalone WebDAV server. 
