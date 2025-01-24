@@ -1,4 +1,4 @@
-address: 0.0.0.0
+address: 127.0.0.1
 port: __PORT__
 
 # TLS-related settings if you want to enable TLS directly.
@@ -10,7 +10,7 @@ key: key.pem
 prefix: /
 
 # Enable or disable debug logging. Default is 'false'.
-debug: false
+debug: true
 
 # Disable sniffing the files to detect their content type. Default is 'false'.
 noSniff: false
@@ -58,12 +58,14 @@ log:
 # CORS configuration
 cors:
   # Whether or not CORS configuration should be applied. Default is 'false'.
-  enabled: false
+  enabled: true
   credentials: true
   allowed_headers:
     - Depth
   allowed_hosts:
-    - http://127.0.0.1:6060
+    - http://localhost:8080
+    - http://__DOMAIN__
+    - https://__DOMAIN__
   allowed_methods:
     - GET
   exposed_headers:
@@ -83,3 +85,4 @@ users:
   - username: __ADMIN__
     password: __PASSWORD__
     directory: __DATA_DIR__
+    permissions: CRUD
