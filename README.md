@@ -18,8 +18,7 @@ It shall NOT be edited by hand.
 
 ## Overview
 
-This is a dummy description of this app features
-
+A simple and standalone WebDAV server. 
 
 **Shipped version:** 5.7.1~ynh1
 ## Documentation and resources

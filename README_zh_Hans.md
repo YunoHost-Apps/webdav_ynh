@@ -18,8 +18,7 @@
 
 ## 概况
 
-This is a dummy description of this app features
-
+A simple and standalone WebDAV server. 
 
 **分发版本：** 5.7.1~ynh1
 ## 文档与资源
