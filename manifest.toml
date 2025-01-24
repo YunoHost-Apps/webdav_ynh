@@ -65,3 +65,4 @@ ram.runtime = "50M"
 
     [resources.ports]
     main.default = 6065
+    main.exposed = "TCP"
