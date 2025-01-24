@@ -58,12 +58,12 @@ log:
 # CORS configuration
 cors:
   # Whether or not CORS configuration should be applied. Default is 'false'.
-  enabled: true
+  enabled: false
   credentials: true
   allowed_headers:
     - Depth
   allowed_hosts:
-    - http://localhost:8080
+    - http://127.0.0.1:6060
   allowed_methods:
     - GET
   exposed_headers:
