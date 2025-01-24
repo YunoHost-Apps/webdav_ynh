@@ -20,7 +20,7 @@ Hij mag NIET handmatig aangepast worden.
 
 A simple and standalone WebDAV server. 
 
-**Geleverde versie:** 5.7.1~ynh1
+**Geleverde versie:** 5.7.2~ynh1
 ## Documentatie en bronnen
 
 - Upstream app codedepot: <https://github.com/hacdias/webdav>

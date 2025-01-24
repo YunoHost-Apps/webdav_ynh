@@ -20,7 +20,7 @@ It shall NOT be edited by hand.
 
 A simple and standalone WebDAV server. 
 
-**Shipped version:** 5.7.1~ynh1
+**Shipped version:** 5.7.2~ynh1
 ## Documentation and resources
 
 - Upstream app code repository: <https://github.com/hacdias/webdav>

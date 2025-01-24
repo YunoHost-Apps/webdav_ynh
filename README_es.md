@@ -20,7 +20,7 @@ No se debe editar a mano.
 
 A simple and standalone WebDAV server. 
 
-**Versión actual:** 5.7.1~ynh1
+**Versión actual:** 5.7.2~ynh1
 ## Documentaciones y recursos
 
 - Repositorio del código fuente oficial de la aplicación : <https://github.com/hacdias/webdav>
