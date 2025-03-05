@@ -1,5 +1,5 @@
 [Unit]
-Description=WebDAV
+Description=WebDAV: standalone WebDAV server
 After=network.target
 
 [Service]
