@@ -7,7 +7,7 @@ name = "WebDAV"
 description.en = "Simple and standalone WebDAV server"
 description.fr = "Serveur WebDAV simple et autonome"
 
-version = "5.7.1~ynh1"
+version = "5.8.0~ynh1"
 
 maintainers = ["eric_G"]
 
@@ -18,7 +18,7 @@ code = "https://github.com/hacdias/webdav"
 [integration]
 yunohost = ">= 12.0.9"
 helpers_version = "2.1"
-architectures = "all"
+architectures = ["amd64", "arm64"]
 multi_instance = true
 
 ldap = false
@@ -48,8 +48,10 @@ ram.runtime = "50M"
 
     [resources.sources.main]
     in_subdir = false
-    url = "https://github.com/hacdias/webdav/releases/download/v5.7.1/linux-amd64-webdav.tar.gz"
-    sha256 = "0bbec3498aec371dd7619b0721b020086ba3cb4ddd0d9f5ad3550a33e01c1e8f"
+    amd64.url = "https://github.com/hacdias/webdav/releases/download/v5.8.0/linux-amd64-webdav.tar.gz"
+    amd64.sha256 = "9e85f9c597e6d08baac26eaaf20521a4256a23963747bf716c81b5603f642fce"
+    arm64.url = "https://github.com/hacdias/webdav/releases/download/v5.8.0/linux-arm64-webdav.tar.gz"
+    arm64.sha256 = "018b0b4eec7848ff17ba5e8d88a5e8262c6cc414a78c981d5dbf29ed90d76462"
     # autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
@@ -62,3 +64,5 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.ports]
+    main.default = 6065
+    main.exposed = "TCP"
